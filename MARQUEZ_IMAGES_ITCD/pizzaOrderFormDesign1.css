@@ -1,0 +1,430 @@
+body {
+    background-image: url('Background\ 3.jpg');
+    background-size: 15%;
+}
+
+.Title {
+    font-size: 15px;
+    text-align: center;
+    background-color: crimson;
+    border-left: 10px crimson;
+    border-right: 10px crimson;
+    border-style: outset;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-size: 190%;
+    font-family: Tahoma;
+    color: black;
+}
+
+h2 {
+    width: 55%;
+    font-size: 150%;
+    font-family: Tahoma;
+    color: crimson;
+    border: solid red;
+    background-color: yellow;
+    text-align: center;
+    border-width: 2px;
+    border-style: outset;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 0 0 0;
+}
+
+h3 {
+    width: 55%;
+    font-size: 150%;
+    font-family: Tahoma;
+    color: black;
+    border: solid black;
+    background-color: gainsboro;
+    text-align: center;
+    border-width: 2px;
+    border-style: inset;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px 0 0 0;
+}
+
+hr {
+    width: 100%;
+    height: 5px;
+    color: brown;
+    background-color: red;
+    border-left: 10px red;
+    border-right: 10px red;
+    border-style: outset;
+}
+
+.Quantity {
+    text-align: center;
+}
+
+.Calculator {
+    width: 15%;
+    float: left;
+}
+
+#img1 {
+    width: 400px;
+    height: 300px;
+    border-radius: 40%;
+    border: 3px solid red;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-style: outset;
+}
+
+#img2, #img3 {
+    width: 35%;
+}
+
+#img4 {
+    width: 40%;
+}
+
+#img5 {
+    width: 30%;
+}
+
+#img6 {
+    width: 35%;
+    float: left;
+    margin-top: 30px;
+}
+
+#img7, #img8 {
+    width: 30%;
+    float: left;
+}
+
+#img9 {
+    width: 25%;
+    float: left;
+}
+
+.SizeSelect {
+    font-family: Tahoma;
+    font-size: 150%;
+    text-align: center;
+    border: solid red;
+    border-radius: 10px;
+    background-color: bisque;
+    border-style: outset;
+}
+
+.Order {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+.Ordered {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 18px;
+    float: left;
+    padding: 0 15px 0 15px;
+}
+
+.Ordered1 {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 18px;
+    float: none;
+    padding: 0 15px 0 15px;
+}
+
+.AddMore {
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    border: solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    margin: auto;
+    border-style: outset;
+}
+
+.AddMore a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.AddMore a:visited {
+    color:red;
+    font-style: oblique;
+}
+
+.AddMore a:active {
+    font-weight: lighter ;
+}
+
+.AddMore a:hover {
+    text-decoration: none;
+}
+
+#Order1, #Order2 {
+    margin-left: 210px;
+}
+
+#Order3, #Order4, #Order5, #Order6 {
+    margin-left: 230px;
+}
+
+#Order7, #Order8 {
+    margin-left: 250px;
+}
+
+#Label1, #Label2 {
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+#Label3, #Label4 {
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+#Label5, #Label6 {
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+#Label7, #Label8 {
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+#PizzaSize {
+    width: 100px;
+    border-color: red;
+    border-style: outset;
+    border-width: 2px;
+    margin-left: 445px;
+}
+
+#PastaSize, #DrinkSize {
+    width: 100px;
+    border-color: red;
+    border-style: outset;
+    border-width: 2px;
+    margin-left: 210px;
+}
+
+#ExtraSize {
+    width: 100px;
+    border-color: red;
+    border-style: outset;
+    border-width: 2px;
+    margin-left: 410px;
+}
+
+form {
+    padding: 30px 0 0 0;
+}
+
+.A {
+    width: 900px;
+    height: 900px;
+    background-color: wheat;
+    border-radius: 90%;
+    border-style: double;
+    margin: auto;
+    border-color: burlywood;
+    margin-top: 50px;
+}
+
+.B {
+    width: 840px;
+    height: 815px;
+    background-color: orange;
+    border-radius: 50%;
+    border-style: double;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-color: crimson;
+    border-width: 5px;
+}
+
+.C {
+    width: 800px;
+    height: 800px;
+    background-color: wheat;
+    border-radius: 90%;
+    border-style: double;
+    margin: auto;
+    border-color: burlywood;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.D {
+    width: 740px;
+    height: 715px;
+    background-color: orange;
+    border-radius: 50%;
+    border-style: double;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-color: crimson;
+    border-width: 5px;
+}
+
+.E, .G, .I, .K {
+    width: 800px;
+    height: 800px;
+    background-color: wheat;
+    border-radius: 100px;
+    border-style: double;
+    margin: auto;
+    border-color: burlywood;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.F, .H, .J, .L {
+    width: 740px;
+    height: 715px;
+    background-color: orange;
+    border-radius: 100px;
+    border-style: double;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-color: crimson;
+    border-width: 5px;
+}
+
+.M {
+    width: 700px;
+    height: 700px;
+    background-color: burlywood;
+    border-radius: 100px;
+    border-style: double;
+    margin: auto;
+    border-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.N {
+    width: 640px;
+    height: 615px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    border-style: outset;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-color: black;
+    border-width: 5px;
+}
+
+.Label1 {
+    display: block;
+    padding: 110px 50px 0px 0px;
+    font-family: Tahoma;
+    font-size: 150%;
+    text-align: right;
+}
+
+.Label2, .Label3, .Label4 {
+    display: block;
+    padding: 0px 50px 0px 0px;
+    font-family: Tahoma;
+    font-size: 150%;
+    text-align: right;
+}
+
+.Label5 {
+    display: block;
+    padding: 5px 50px 0px 0px;
+    font-family: Tahoma;
+    font-size: 150%;
+    text-align: right;
+}
+
+#Fullname, #Fulladdress, #Fullcontact, #Fullemail {
+    width: 525px;
+    padding: 5px 0px 5px 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: crimson;
+}
+
+#Fulllocation {
+    width: 525px;
+    height: 150px;
+    padding: 5px 0px 5px 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: crimson;
+    vertical-align: top;
+}
+
+#Choices {
+    text-align: center;
+}
+
+#Quantity1 {
+    width: 100px;
+    border-color: red;
+    border-style: outset;
+    border-width: 2px;
+}
+
+#Payment, #PizzaFinal  {
+    text-align: center;
+}
+
+#submit {
+    width: 300px;
+    margin-top: 20px;
+    border-color: red;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: whitesmoke;
+    border-style: outset;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: orangered;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Tahoma;
+    border-radius: 10px;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background: black;
+    color: White;
+    font-family: Tahoma;
+}

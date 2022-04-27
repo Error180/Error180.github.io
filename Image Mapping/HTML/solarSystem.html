@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Solar System</title>
+	<script language="JavaScript">
+		function writeText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+		
+		function dissolveText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+	</script>
+	<style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: antiquewhite;
+            text-align: center;
+        }
+		
+		p#desc {
+			color: antiquewhite;
+            text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+    <h1>The Solar System</h1>
+    <br>
+    <div align="center">
+            <img src="../Images/Solar System.jpg" usemap="#solarSystem">
+			<map name="solarSystem">
+				<area shape="rect" coords="265,48,315,98" href="Uranus.html" target="newSpace" onMouseOver="writeText('The surface temperature of Uranus is -195 degrees Celsius.');" onMouseOut="dissolveText('');"/>
+				<area shape="circle" coords="95,289,62" href="Earth.html" target="newSpace" onMouseOver="writeText('The surface temperature of Earth is 13.9 degrees Celsius.');" onMouseOut="dissolveText('')";>
+				<area shape="circle" coords="200,394,20" href="Mercury.html" target="newSpace" onMouseOver="writeText('The surface temperature of Mercury is 430 degrees Celsius.');" onMouseOut="dissolveText('')";>
+			
+			</map>
+    </div>
+	<p id="desc"></p>
+
+</body>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+	<title>Order Form</title>
+	<link rel="stylesheet" type="text/css" href="MARQUEZ_IMAGES_ITCD/pizzaOrderFormDesign1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body id="Top">
+    <header>
+    <p class="Title">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+
+    <img id="img1" src="MARQUEZ_IMAGES_ITCD/Title.gif" alt="GIF">
+
+    <p class="Title">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+    </header>
+        <form action="#" method="post">
+            <fieldset class="A">
+                <fieldset class="B">
+
+                    <h1 id="Customer Information"><b><u>Customer Information</u></b></h1>
+                    <div class="Label1">
+                        <i class="fa fa-user-circle"></i>
+                        <label for="Fullname">Full Name:</label>
+                        <input type="text" name="Fullname" id="Fullname" placeholder="e.g. John Doe" size="50">
+                    </div>
+                    <div class="Label2">
+                        <i class="fa fa-map-marker"></i>
+                        <label for="Fulladdress">Complete Address:</label>
+                        <input type="text" name="Fulladdress" id="Fulladdress" placeholder="e.g. 15 J.P. Laurel Street, Odiongan City" size="50">
+                    </div>
+                    <div class="Label3">
+                        <i class="fa fa-phone"></i>
+                        <label for="Fullcontact">Contact Number:</label>
+                        <input type="tel" name="Fullcontact" id="Fullcontact" placeholder="e.g. (02) 634-3576" size="20">
+                    </div>
+                    <div class="Label4">
+                        <i class="fa fa-envelope"></i>
+                        <label for="Fullemail">Email Address:</label>
+                        <input type="email" name="Fullemail" id="Fullemail" placeholder="e.g. johndoe123@gmail.com" size="50">
+                    </div>
+                    <div class="Label5">
+                        <i class="fa fa-map"></i>
+                        <label for="Fulllocation">How to Get There?</label>
+                        <textarea name="Fulllocation" id="Fulllocation"></textarea>
+                    </div>
+
+                </fieldset>
+            </fieldset>
+            <fieldset class="C">
+                <fieldset class="D">
+
+                    <h1 id="Food"><b><u>Menu</u></b></h1>
+                    <div id="Choices">
+                        <a href="#Pizza"><img id="img2" src="MARQUEZ_IMAGES_ITCD/Pizza 1.gif" alt="Pizza"></a>
+                        <a href="#Pasta"><img id="img3" src="MARQUEZ_IMAGES_ITCD/Pasta.gif" alt="Pasta"></a>
+                        <a href="#Drinks"><img id="img4" src="MARQUEZ_IMAGES_ITCD/Drink 1.gif" alt="Drinks"></a>
+                        <a href="#Extras"><img id="img5" src="MARQUEZ_IMAGES_ITCD/Bread Sticks.gif" alt="Extras"></a>
+                    </div>
+
+                </fieldset>
+            </fieldset>
+
+            <hr><hr>
+
+            <fieldset class="E">
+                <fieldset class="F">
+
+                    <h2 id="Pizza"><b><u>Pizza</u></b></h2>
+                    <div id="Choice1">
+                        <img id="img6" src="MARQUEZ_IMAGES_ITCD/Pizza 1.gif" alt="Pizza">
+                        <div>
+                            <div>    
+                                <p class="SizeSelect">Order?</p>
+                                <input id="Order1" type="radio" name="Buy1" id="Buy" value="Buy">
+                                <label id="Label1" for="drink">Yes</label>
+                            </div> 
+                            <div>      
+                                <input id="Order2" type="radio" name="Buy1" id="Buy" value="Buy">
+                                <label id="Label2" for="drink">No</label>
+                            </div>
+                            <p class="SizeSelect">Select a size:</p> 
+                            <select id="PizzaSize" name="Pizza Size"> 
+                                <option value="Medium">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                                <option value="Family">Party</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="Quantity">
+                            <p class="SizeSelect">Quantity:</p> 
+                            <select id="Quantity1" name="Quantity"> 
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <p class="SizeSelect">Thin Crust?</p>
+                        <div class="Order">    
+                            <input type="radio" name="Buy2" id="Buy" value="Buy">
+                            <label for="Buy">Yes</label> 
+                        </div>
+                        <div class="Order">      
+                            <input type="radio" name="Buy2" id="Buy" value="Buy">
+                            <label for="Buy">No</label>
+                        </div>
+
+                        <hr>
+
+                        <p class="SizeSelect">Toppings:</p>
+                        <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Fresh Garlic</label>
+
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Extra Cheese</label>   
+
+                            </div>
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Mushroom</label>      
+
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Sausages</label>     
+
+                            </div> 
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Onion</label>      
+
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Black olives</label>  
+
+                            </div>
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Green pepper</label>   
+
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Pepperoni</label>     
+
+                            </div>
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Tomatoes</label>    
+
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy2" id="Buy" value="Buy">
+                                <label for="Buy">Basil</label>     
+                            </div>  
+                        </div>
+
+                        <hr>
+
+                        <div class="AddMore">
+                            <a href="#Pasta">Add More?</a>
+                        </div>
+                    </div> 
+
+                </fieldset>
+            </fieldset>
+
+            <hr><hr>
+
+            <fieldset class="G">
+                <fieldset class="H">
+
+                    <h2 id="Pasta"><b><u>Pasta</u></b></h2>
+                    <div id="Choice2">
+                        <img id="img7" src="MARQUEZ_IMAGES_ITCD/Pasta.gif" alt="Pasta">
+                        <div>
+                            <div>    
+                                <p class="SizeSelect">Order?</p>
+                                <input id="Order3" type="radio" name="Buy3" id="Buy" value="Buy">
+                                <label id="Label3" for="drink">Yes</label>       
+                            </div> 
+                            <div>      
+                                <input id="Order4" type="radio" name="Buy3" id="Buy" value="Buy">
+                                <label id="Label4" for="drink">No</label>     
+                            </div> 
+                            <p class="SizeSelect">Select a size:</p> 
+                            <select id="PastaSize" name="Pasta Size"> 
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="Quantity">
+                            <p class="SizeSelect">Type of Pasta:</p>
+                            <select id="Quantity1" name="Sauce"> 
+                                <option value="Spaghetti">Spaghetti</option>
+                                <option value="Carbonara">Carbonara</option>
+                                <option value="Pesto">Pesto</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="Quantity">
+                            <p class="SizeSelect">Quantity:</p> 
+                            <select id="Quantity1" name="Quantity"> 
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <p class="SizeSelect">Toppings:</p>
+                        <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Fresh Tomato</label>       
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Onion</label>     
+                            </div>
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Mushroom</label>       
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Sausages</label>     
+                            </div> 
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Onion</label>       
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Three-Cheese</label>     
+                            </div>
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Garlic</label>       
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">White clam</label>     
+                            </div>
+                            <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Scallions</label>       
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy3" id="Buy" value="Buy">
+                                <label for="Buy">Bacon</label>     
+                            </div>  
+                        </div>
+
+                        <hr>
+
+                        <div class="AddMore">
+                            <a href="#Drinks">Add More?</a>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </fieldset>
+
+            <hr><hr>
+
+            <fieldset class="I">
+                <fieldset class="J">
+
+                    <h2 id="Drinks"><b><u>Drinks</u></b></h2>
+                    <div id="Choice3">
+                        <img id="img8" src="MARQUEZ_IMAGES_ITCD/Drink 1.gif" alt="Drinks">
+                        <div>
+                            <div>    
+                                <p class="SizeSelect">Order?</p>
+                                <input id="Order5" type="radio" name="Buy4" id="Buy" value="Buy">
+                                <label id="Label5" for="drink">Yes</label>       
+                            </div> 
+                            <div>      
+                                <input id="Order6" type="radio" name="Buy4" id="Buy" value="Buy">
+                                <label id="Label6" for="drink">No</label>     
+                            </div>
+                            <p class="SizeSelect">Select a size:</p> 
+                            <select id="DrinkSize" name="Drink Size"> 
+                                <option value="Small">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                                <option value="Large">XL</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="Quantity">
+                            <p class="SizeSelect">Quantity:</p> 
+                            <select id="Quantity1" name="Quantity"> 
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="Quantity">
+                            <p class="SizeSelect">Soda:</p>
+                            <select id="Quantity1" name="Sauce"> 
+                                <option value="None">None</option>
+                                <option value="Coca Cola">Coca Cola</option>
+                                <option value="Pepsi">Pepsi</option>
+                                <option value="Sprite">Sprite</option>
+                                <option value="Mountain Dew">Mountain Dew</option>
+                                <option value="RC">RC</option>
+                                <option value="Root Beer">Root Beer</option>
+                                <option value="Royal">Royal</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="Quantity">
+                            <p class="SizeSelect">Juice:</p>
+                            <select id="Quantity1" name="Sauce"> 
+                                <option value="None">None</option>
+                                <option value="Apple">Apple</option>
+                                <option value="Pineapple">Pineapple</option>
+                                <option value="Orange">Orange</option>
+                                <option value="Mango">Mango</option>
+                                <option value="Watermelon">Watermelon</option>
+                                <option value="Melon">Melon</option>
+                                <option value="Four Seasons">Four Seasons</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="AddMore">
+                            <a href="#Extras">Add More?</a>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </fieldset>
+
+            <hr><hr>
+
+            <fieldset class="K">
+                <fieldset class="L">
+
+                    <h2 id="Extras"><b><u>Extras</u></b></h2>
+                    <div id="Choice4">
+                        <img id="img9" src="MARQUEZ_IMAGES_ITCD/Bread Sticks.gif" alt="Extras">
+                        <div>
+                            <div>    
+                                <p class="SizeSelect">Order?</p>
+                                <input id="Order7" type="radio" name="Buy5" id="Buy" value="Buy">
+                                <label id="Label7" for="drink">Yes</label>       
+                            </div> 
+                            <div>      
+                                <input id="Order8" type="radio" name="Buy5" id="Buy" value="Buy">
+                                <label id="Label8" for="drink">No</label>     
+                            </div> 
+                            <p class="SizeSelect">Select a size:</p> 
+                            <select id="ExtraSize" name="Extra Size"> 
+                                <option value="Small">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <div class="Quantity">
+                            <p class="SizeSelect">Quantity:</p> 
+                            <select id="Quantity1" name="Quantity"> 
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+
+                        <hr>
+
+                        <p class="SizeSelect">Take your Pick:</p>
+                        <div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy4" id="Buy" value="Buy">
+                                <label for="Buy">Garlic bread</label>       
+                            </div> 
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy4" id="Buy" value="Buy">
+                                <label for="Buy">Mozarella sticks</label>     
+                            </div>
+                            <div class="Ordered">    
+                                <input type="checkbox" name="Buy4" id="Buy" value="Buy">
+                                <label for="Buy">Sausage rolls</label>       
+                            </div>
+
+                            <div class="Ordered">      
+                                <input type="checkbox" name="Buy4" id="Buy" value="Buy">
+                                <label for="Buy">Buffalo wings</label>     
+                            </div>     
+                        </div>
+
+                        <hr>
+
+                        <div class="AddMore">
+                            <a href="#Checkout">Checkout?</a>
+                        </div>   
+                    </div>
+
+                </fieldset>
+            </fieldset>
+
+            <hr><hr>
+
+            <fieldset class="M">
+                <fieldset class="N">
+
+                    <h3 id="Checkout"><b><u>Checkout</u></b></h3>
+                    <div id="PizzaFinal">
+                        <img src="MARQUEZ_IMAGES_ITCD/Pizza.gif" alt="Pizza">
+                    </div>
+                    <div id="Payment">
+                        <input type="submit" id="submit" value="Submit">
+                    </div>
+
+                </fieldset>
+            </fieldset> 
+        </form>  
+    <div class="navbar">
+        <a href="#Title">Home</a>
+        <a href="#Customer Information">Customer Information</a>
+        <a href="#Food">Menu</a>
+        <a href="#Checkout">Checkout</a>
+    </div>
+
+</body>
+</html>

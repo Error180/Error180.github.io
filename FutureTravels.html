@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>My Future Travels</title>
+    <script>
+        function writeText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+		
+		function dissolveText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+    </script>
+	<style>
+		body {
+            background-color: blanchedalmond;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 250%;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            background-color: bisque;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 125%;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            background-color: bisque;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color:blueviolet;
+            font-style: oblique;
+        }
+
+        a:active {
+            font-weight: lighter ;
+        }
+
+		a:hover {
+            text-decoration: underline;
+		}
+
+        img {
+            width: 1150px;
+            height: 811px;
+            float: left;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 200%;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            background-color: bisque;
+        }
+
+		h3 {
+            text-align: center;
+            background-color: bisque;
+			border-left: 5px solid black;
+            border-right: 5px solid black;
+        }
+
+        p#desc {
+			color: red;
+            font-size: 200%;
+		}
+
+	</style>
+</head>
+<body id="Top">
+	<hr width="100%" size="4" color="blue" align="left">
+	<hr width="100%" size="4" color="blue" align="left">
+	<h1>My Future Travels</h1>
+	<hr width="100%" size="4" color="blue" align="left">
+	<hr width="100%" size="4" color="blue" align="left">
+    <br><br>
+    
+	<div align="center">
+            <img src="Images/Image 27.png" usemap="#Locations">
+			<map name="Locations">
+				<area shape="rect" coords="147,139,356,275" href="Coron, Philippines.html" target="newSpace" onMouseOver="writeText('Coron');" onMouseOut="dissolveText('');"/>
+				<area shape="rect" coords="143,523,351,659" href="Shibuya, Japan.html" target="newSpace" onMouseOver="writeText('Shibuya');" onMouseOut="dissolveText('')";>
+				<area shape="rect" coords="845,94,1053,230" href="Fushimi Inari Shrine, Japan.html" target="newSpace" onMouseOver="writeText('Fushimi Inari Shrine');" onMouseOut="dissolveText('')";>
+                <area shape="rect" coords="884,292,1093,424" href="Matterhorn, Switzerland.html" target="newSpace" onMouseOver="writeText('Matterhorn');" onMouseOut="dissolveText('')";>
+				<area shape="rect" coords="662,647,870,784" href="Boracay, Philippines.html" target="newSpace" onMouseOver="writeText('Boracay Island');" onMouseOut="dissolveText('')";>
+			
+			</map>
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p id="desc"></p>
+
+    <br><br>
+	<hr width="100%" size="4" color="blue" align="left">
+    <h3><a href="#Top">Back to Top</a></h3>
+	<br>
+	<hr width="100%" size="4" color="blue" align="left">
+	<hr width="100%" size="4" color="blue" align="left">
+	<h2><a href="MARQUEZ_LandingPage_ITCD.html">Home</a></h2>
+	<hr width="100%" size="4" color="blue" align="left">
+	<hr width="100%" size="4" color="blue" align="left">
+
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Image Styling</title>
+	<style>
+        body {
+            background-color: blanchedalmond;
+        }
+        h1 {
+            background-color: bisque;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            border-radius: 30px;
+        }
+
+        img:hover.border {
+            opacity: 1;
+            border: 4px ridge;
+            border-left-color: blue;
+            border-top-color: blue;
+            border-right-color: blueviolet;
+            border-bottom-color: blueviolet;
+        }
+
+        img:hover.border2 {
+            opacity: 1;
+            border: 4px dashed;
+            border-left-color: yellow;
+            border-top-color: yellow;
+            border-right-color: orange;
+            border-bottom-color: orange;
+        }
+
+        img:hover.box1 {
+            opacity: 1;
+            box-shadow: 10px 10px 15px orange;
+        }
+
+        img:hover.box2 {
+            opacity: 1;
+            box-shadow: 10px 10px 45px 5px red;
+        }
+
+        img:hover.box3 {
+            opacity: 1;
+            box-shadow: 0 0 5px 5px rgb(1, 247, 255);
+            border-radius: 50%;
+        }
+
+        img.box3 {
+            border: 3px solid black
+        }
+
+	</style>
+</head>
+<body>
+    <div align="center">
+        <h1>Border Styles</h1>
+        <a target="_blank" href="IMAGES/Image 10.jpg">
+            <img src="IMAGES/Image 10.jpg" class="border2">
+        </a>
+
+        <a href="IMAGES/Image 11.jpg">
+            <img src="IMAGES/Image 11.jpg" class="box1">
+        </a>
+
+        <a href="IMAGES/Image 12.jpg">
+            <img src="IMAGES/Image 12.jpg" class="border">
+        </a>
+
+        <a target="_blank" href="IMAGES/Image 13.jpg">
+            <img src="IMAGES/Image 13.jpg" class="box2">
+        </a>
+
+        <a target="_blank" href="IMAGES/Image 14.jpg">
+            <img src="IMAGES/Image 14.jpg" class="box3">
+        </a>
+    </div>
+
+</body>
+</html>

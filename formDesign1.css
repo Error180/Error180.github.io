@@ -1,0 +1,118 @@
+fieldset {
+  width: 65%;
+  max-width: 65%;
+  margin: auto;
+  background-color: wheat;
+  border: solid 2px grey;
+  border-radius: 6px;
+}
+
+legend{
+  font-size: 1.25em;
+  padding: 0 .25em;
+  font-family: "Tahoma";
+}
+
+label{
+  display:block;
+  margin-top: 1em;
+  font-family: "Tahoma";
+}
+
+.messages label {
+  padding: 1em 0em 0em 0em;
+}
+
+label:first-of-type{
+  margin-top:0;
+} 
+
+
+input{
+  padding: 0;
+  border: solid 1px #999;
+  
+}
+
+input[type="Lastname"], input[type="text"] {
+  width: 17em;
+  padding:5px;
+
+}
+
+textarea{
+  min-height: 6em;
+  min-width: 50%;
+  padding: .5em;
+  border: solid 1px #999;
+  border-radius: 4px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin-right:.5em;
+  resize:none;
+  
+}
+
+.checks{
+  margin-bottom: 1em;
+}
+
+.checks p, .checks1 p, .selects p{
+  margin-bottom:0;
+  font-family: "Tahoma";
+}
+
+input[type="drink"] + label{
+  display: inline-block;
+  padding-top: 0;
+  margin-top:0;
+}
+
+input[type="drink"]{
+  margin-left: 1.5em;
+  margin-right: 0;
+}
+
+input[type="drink"]:first-of-type {
+  margin-left: 0;
+}
+
+h1 {
+  margin-left: 15.5%;
+  
+}
+
+input[type="submit"]{
+  margin-left: 15.5%;
+  margin-right: 84.5%;
+  padding: .5em 1em;
+  border-radius: 6px;
+  font-family: 'Tahoma', sans-serif;
+  font-size: .8em;
+}
+
+
+@media screen and (min-width: 430px){
+  legend{
+    font-size: 1.75em;
+  }
+}
+
+.checks1 input, .checks1 label{
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 0;
+  margin-right: .5em;
+}
+
+select {
+  width: 12em;
+}
+
+body{
+  background-color: burlywood;
+}
+
+.A fieldset {
+  margin-left: 20px;
+}
+
